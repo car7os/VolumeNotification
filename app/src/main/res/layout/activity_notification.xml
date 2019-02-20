@@ -4,5 +4,4 @@
     tools:layout_editor_absoluteY="0dp"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
-    </FrameLayout>
+</FrameLayout>
