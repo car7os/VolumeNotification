@@ -65,5 +65,55 @@
         android:layout_toStartOf="@+id/btnVolumeBluetooth"
         android:drawableStart="@drawable/ic_audiotrack_black_24dp" />
 
+    <TextView
+        android:id="@+id/lbVolMaster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtMaster2"
+        android:layout_alignEnd="@+id/btnVolumeUp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="0dp"
+        android:text="Volume Master" />
+
+    <TextView
+        android:id="@+id/txtMaster2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnVolumeUp"
+        android:layout_alignEnd="@+id/btnVolumeDown"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="0dp"
+        android:text="%%" />
+
+    <TextView
+        android:id="@+id/txtAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnVolumeAlarm"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/btnVolumeMute"
+        android:text="%%" />
+
+    <TextView
+        android:id="@+id/txtBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnVolumeBluetooth"
+        android:layout_alignEnd="@+id/btnVolumeBluetooth"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="0dp"
+        android:text="%%" />
+
+    <TextView
+        android:id="@+id/txtMaster2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnVolumeMaster"
+        android:layout_alignEnd="@+id/btnVolumeMaster"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="0dp"
+        android:text="%%" />
+
 </RelativeLayout>
 
