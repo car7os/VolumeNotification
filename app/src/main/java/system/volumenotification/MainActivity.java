@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 .setOngoing(true)
                 .build();
 
-        vNotification.bigContentView = visualNotification;
+        vNotification.contentView = visualNotification;
 
 
 
